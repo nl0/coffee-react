@@ -5,7 +5,8 @@ transform = require 'coffee-react-transform'
 
 helpers = require './helpers'
 
-CoffeeScript = require 'coffee-script/lib/coffee-script/coffee-script'
+CoffeeScript = Object.assign {},
+  require 'coffee-script/lib/coffee-script/coffee-script'
 
 jsSyntaxTransform = require 'coffee-react-jstransform'
 
@@ -13,7 +14,7 @@ unless CoffeeScript._cjsx
 
   CoffeeScript._cjsx = yes
 
-  CoffeeScript.FILE_EXTENSIONS.push '.cjsx'
+  CoffeeScript.FILE_EXTENSIONS = [CoffeeScript.FILE_EXTENSIONS..., '.cjsx']
 
   CoffeeScript.register = -> require './register'
 
