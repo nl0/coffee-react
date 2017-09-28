@@ -1,5 +1,5 @@
 {
-  "name": "coffee-react-fixed",
+  "name": "coffee-react",
   "description": "Coffeescript compiler wrapper adding coffee-react-transform CJSX support",
   "keywords": [
     "coffeescript",
