@@ -1,5 +1,5 @@
 {
-  "name": "coffee-react",
+  "name": "coffee-react-fixed",
   "description": "Coffeescript compiler wrapper adding coffee-react-transform CJSX support",
   "keywords": [
     "coffeescript",
@@ -29,11 +29,11 @@
     "prepublish": "cake build",
     "test": "tap test/*.coffee"
   },
-  "homepage": "https://github.com/jsdf/coffee-react",
+  "homepage": "https://github.com/nl0/coffee-react",
   "bugs": "https://github.com/jsdf/coffee-react/issues",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jsdf/coffee-react.git"
+    "url": "git://github.com/nl0/coffee-react.git"
   },
   "dependencies": {
     "coffee-react-jstransform": "^1.0.0",
